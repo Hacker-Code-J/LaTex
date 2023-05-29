@@ -10,8 +10,14 @@
 \draw[] (\i,.1)--(\i,-.1) node[below] {$\i$};%x-axis
 \foreach \i in {-1,1,2}
 \draw[] (.1,\i)--(-.1,\i) node[left] {$\i$};%y-axis
-```
 
 %Pattern
 \usetikzlibrary {patterns,patterns.meta}
 \draw[pattern={Lines[angle=45,distance={12pt/sqrt(3)}]}, pattern color=blue]
+
+
+
+
+
+
+```
