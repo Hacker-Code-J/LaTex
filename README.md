@@ -7,7 +7,7 @@
 
 %Take Coordinates
 \foreach \i in {-4,...,-2,-1,1,2,...,4}
-\draw[] (\i,.1)--(\i,-.1) node[below] {$\i$};
+\draw[] (\i,.1)--(\i,-.1) node[below] {$\i$};%x-axis
 \foreach \i in {-1,1,2}
-\draw[] (.1,\i)--(-.1,\i) node[left] {$\i$};
+\draw[] (.1,\i)--(-.1,\i) node[left] {$\i$};%y-axis
 ```
