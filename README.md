@@ -16,8 +16,9 @@
 \draw[pattern={Lines[angle=45,distance={12pt/sqrt(3)}]}, pattern color=blue]
 
 
-
-
+%Text above and below like summation
+\usepackage{amsmath}
+\DeclareMathOperator*{\mycup}{\cup}
 
 
 ```
